@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+html{
+    scroll-behavior: smooth;
+    
+}
+
+body{
+    background-color: rgb(100, 100, 100);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1{ font-size: 3.5em;}
+h2{ font-size: 2.5em;
+    color:  rgb(249, 145, 153);
+    text-shadow: 1px 3px 2px black;
+}
+h3{ font-size: 2em;
+    color:  rgb(204, 126, 133);
+    text-shadow: 1px 3px 2px black
+    
+}
+
+h3:hover{
+    color:  rgb(182, 105, 112);
+}
+p{ font-size: 1.5em;}
+ul{ list-style: none;}
+
+button{
+    font: 200px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 2px solid black;
+    background-color: rgb(249, 145, 153);
+    color: rgb(249,247,162);
+    position: relative;
+    margin-top: 50px;
+    width: 150px;
+    height: 50px;
+}
+
+button:hover{
+    background-color: rgb(249,247,162);
+    color:  rgb(249, 145, 153);
+    box-shadow: 1px 3px 2px;
+
+    
+}
+.conteiner{
+    max-width: 1400px;
+    margin: auto;
+   
+}
+
+header{
+    background-color: rgb(249,247,162);
+    border-bottom: 2px solid black;
+    }
+
+header .logo{
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bold;
+    color:  rgb(249, 145, 153);
+    font-size: 4em;
+    text-shadow: 1px 3px 2px black; 
+    margin-top: -150px;
+    
+}
+
+header .conteiner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header nav{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    padding-bottom:  2em;
+}
+
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    color: rgb(249, 145, 153);
+    font-weight: bold;
+    text-shadow: 1px 1px 2px black;
+    font-size: 25px;
+}
+header a:hover{
+    background-color: rgb(249,247,162);
+    color:  rgb(204, 126, 133);
+    box-shadow: 0px 1px 1px;
+}
+
+header .imagenlogo{
+    display: flex;
+    margin-right: 800px;
+}
+
+#hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    background-image: url(/Images/imagen\ fondo\ hero.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 2px outset rgb(17, 17, 17);
+    }
+
+#gustos{
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 5%;
+    }
+
+
+#gustos .nuestrosgustos{
+    padding-top: 3%;
+    padding-bottom: 3%;
+    
+}
+
+#gustos .carta{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+background-repeat: no-repeat;
+background-size: cover;
+border-radius: 15px;
+height: 100px;
+
+}
+
+.carta:first-child{
+    background-image: url(/Images/cremas.png);
+    margin: 15px;
+}
+.carta:nth-child(2){
+    background-image: url(/Images/ddls.png);
+    margin: 15px;
+}
+.carta:nth-child(3){
+    background-image: url(/Images/veganos.png);
+    margin: 15px;
+}
+
+.listagustos{
+    color: rgb(249,247,162);
+    text-align: center;
+    padding-top: 3%;
+    
+}
+
+#nosotros{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.textonosotros{
+    color: rgb(249,247,162);
+    text-align: center;
+    padding-top: 3%;
+    border: 4px solid rgb(249,247,162);
+    
+}
+
+#contacto{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+margin-top: 50px;
+}
+
+footer{
+    background-color: rgb(29, 82, 125, 1) ;
+    border: 1px solid black;
+    margin-top: 15px;
+}
+
+footer p{
+    margin: 0;
+    color: rgb(221, 221, 221);
+}
+
+footer .conteiner{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
